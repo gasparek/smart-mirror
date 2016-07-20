@@ -1,0 +1,160 @@
+/*  Page setup */
+body{
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+}
+
+div#wrapper {
+	width: 500px; /* TODO: Actual dimensions */
+	height: 800px;
+}
+
+div {
+	border: 1px solid white;
+	width: 49.7%;
+	height: 50%;
+}
+
+div#top-left {
+
+}
+
+div#bottom-left {
+	position: inherit;
+	width: 100%; /* !! */
+}
+
+div#top-right {
+	float: right;
+	margin: auto;
+	margin-top: -80.5%;
+}
+/*
+div#bottom-right {
+	float: right;
+	margin-top: -80.5%;
+}
+*/
+
+/* Styling */
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-weight: 100;
+}
+
+h4 { 
+	font-weight: 100;
+	font-size: 1em;
+}
+
+h5 {
+	font-weight: 100;
+	font-size:  0.7em;
+}
+
+div#timespacing {
+	position: inherit;
+	height: 90px;
+	width: 100%;
+}
+
+h2.time {
+	float: right;
+	margin: auto;
+}
+
+h3.time {
+	float: right;
+	margin: -20px auto -20px auto;
+
+}
+
+h3.time#date {
+	margin-top: -35px;
+}
+
+div#weatherspacing {
+	position: inherit;
+	height: 78px;
+	width: 100%;
+}
+
+h2.weather {
+	float: left;
+	margin: -10px auto 0 5px;
+}
+
+h3.weather {
+	float: left;
+	margin: 0 auto 0 5px;
+}
+
+h4.weather {
+	float: left;
+	margin: 0 auto 0 5px;
+}
+
+h5.weather {
+	float: left;
+	margin: 0 auto 5px 5px;
+}
+
+#top-left i {
+	position: inherit;
+	float:right;
+	margin: -60px 60px 0 auto;
+	font-size: 4em;
+
+}
+
+
+/*
+h2.time {
+	position: absolute;
+	right: 0;
+	margin-right: 30px;
+	font-size: 2em;
+}
+
+h2.weather {
+	position: absolute;
+	left: 0;
+	margin-left: 30px;
+	margin-top: 60px;
+	font-size: 2em;
+}
+
+h3.time {
+	position: absolute;
+	right: 0;
+	margin-right: 30px;
+	margin-top: 60px;
+	font-weight: 100;
+}
+
+h3.weather {
+	position: absolute;
+	left: 0;
+	margin-left: 31px;
+	margin-top: 70px;
+	font-weight: 100;
+}
+
+
+h4.weather {
+	position: absolute;
+	left: 0;
+	margin-left: 35px;
+	margin-top: 70px;
+	font-weight: 100;
+	font-size: 0.6em;
+}
+
+*/
+
